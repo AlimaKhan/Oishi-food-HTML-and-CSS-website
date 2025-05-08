@@ -357,13 +357,7 @@ margin-bottom: 20px;
 
 
 
-/* Make all images responsive */
-img {
-    max-width: 100%;
-    height: auto;
-    display: block;
-}
-
+ 
 /* Adjust image boxes for responsiveness */
 .menu .content .box,
 .expert .content .box,
