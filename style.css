@@ -1,0 +1,340 @@
+@import url('https://fonts.googleapis.com/css2?family=Hina+Mincho&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Hina Mincho', serif;
+    scroll-behavior: smooth;
+    
+}
+
+p {
+    font-weight: 300;
+    color: #111;
+}
+body{
+    min-height: 1000px;
+}
+.banner {
+    padding: 0;
+    position: relative;
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: url(img/banner.jpg.jpg);
+    background-size: cover;
+}
+.banner .content{
+max-width:900px;
+text-align: center;
+}
+.banner .content h2{
+    font-size: 5em;
+    color:#ffffffce;
+}
+.banner .content p {
+    font-size: 1rem;
+    color: #fff;
+ }
+.btn{
+    font-size: 1rem;
+    font-family:sans-serif;
+    color: #fff;
+    background: #b894949a;
+    display: inline-block;
+    padding: 10px 30px;
+    margin-top:20px ;
+    text-decoration: none;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    transition: 0.5s;
+}
+.btn:hover{
+    letter-spacing: 6px;
+}
+header{
+    position:absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 40px 100px;
+    z-index: 10000;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    transition: 0.5s;
+}
+  header .logo {
+    color: #fff;
+    font-weight: 700;
+    font-size: 2em;
+    text-decoration: none;
+
+  }
+ header .logo span{
+    color:#ff0157;
+ }
+ header.navigation{
+    position: relative;
+display: block;
+
+ }
+header .navigation li{
+    list-style:none ;
+margin-left: 20px;
+display: inline;
+
+}
+header .navigation li a {
+     text-decoration: none;
+    color: #faf8f8;
+    font-weight:100;   
+}
+ 
+section{ padding: 100px;
+background-color:rgba(43, 42, 42, 0.774);}
+.row{
+    position: relative;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.row .co150{
+    position: relative;
+    width: 48%;
+}
+.titletext{
+    color: #111;
+    font-size: 2em;
+    font-weight: 300;
+}
+.titletext span {
+    color: #ff0157;
+    font-weight: 700;
+    font-size: 1.5em;
+}
+.row .col150 .imgbx{
+    position: relative;
+    width: 50%;
+    /* min-height: 300px; */
+    height: 50%;
+}
+.row .col150 .imgbx img{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 50%;
+    height: 50%;
+    object-fit: cover;
+}
+.title {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.menu .content {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-top: 40px;
+}
+.menu .content .box{
+    width: 340px;
+    margin: 20px;
+    border: 5px solid rgb(0, 0, 0);
+    box-shadow: 0 5px 35px rgb(0, 0, 0);
+}
+.menu .content .box .imgbx{
+    position: relative;
+    width: 100%;
+    height: 300px;
+}
+.menu .content .box .imgbx img{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.menu .content .box .text{
+    padding: 15px 0 5px;
+    position: absolute;
+   
+}
+.menu .content .box .text h3{
+    font-weight: 600;
+    color: white
+}
+.expert .content 
+{
+    display: flex;
+    justify-self:center;
+    flex-wrap: wrap;
+    flex-direction: column;
+    margin-top: 40px;
+}
+.expert .content .box {
+    width:250px ;
+    margin: 15px;
+    border: 2px solid rgb(255, 255, 255);
+    box-shadow: 0 5px 35px rgb(241, 238, 238);
+}
+.expert .content .box .imgbx{
+    position: relative;
+    width: 100%;
+    height: 300px;
+}
+.expert .content .box .imgbx img{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.expert .content .box .text{
+    padding: 15px 0 15px ;
+}
+.expert .content .box .text h3{
+    font-weight: 300;
+}
+.testimonials{
+    width: 100%;
+    background: url(img/bg.jpg.jpg);
+    background-size: cover;
+}
+.white .titletext,
+.white .titletext p{
+    color: white;
+}
+.testimonials .content{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    flex-direction: row;
+    margin-top: 40px;
+    padding: 10px;
+
+}
+.testimonials .content .box {
+    width: 340px;
+    margin: 20px;
+    padding: 40px;
+    background:rgba(0, 0, 0, 0.904);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+}
+.testimonials p{
+    color: white;
+}
+.testimonials .content .box .imgbx{
+    position: relative;
+    width: 80px;
+    height: 80px;
+    margin-bottom: 20px;
+    border-radius: 50%;
+    overflow: hidden;
+}
+.testimonials .content .box .imgbx img{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.testimonials .content .box .text{
+    text-align: center;
+
+}
+ .testimonials .content .box .text h3{
+    color: #ff0157;
+    font-size: 1em ;
+    
+ }
+ .Contact{
+    background: url(img/bg2.jpg.jpg);
+    background-size: cover;
+
+ }
+ .contactForm{
+    padding: 75px 50px;
+    background: #ffffffe7;
+    box-shadow: 0 15px 50px rgba(0, 0, 0, 0.1);
+    max-width: 400px;
+    margin-top: 50px;
+    border-radius: 30px;
+ }
+ .contactForm h3{
+    color: #111;
+    font-size: 1.2em;
+    margin-bottom: 20px;
+    font-weight: 500;
+ }
+ .contactForm .inputBox{
+position: relative;
+width: 100%;
+margin-bottom: 20px;
+
+ }
+ .contactForm .inputBox input{
+    width: 100%;
+    border: 1px solid #555;
+    padding: 10px;
+    color: #111;
+    outline: none;
+    font-size: 16px;
+    font-weight: 300;
+    resize: none;
+ }
+ .contactForm .inputBox input[type="submit"]{
+    font-size: 1em;
+    color: #fff;
+    background: #ff0157;
+    display: inline-block;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    transition: 0.5s;
+    max-width: 100px;
+    font-weight: 500;
+    border: none;
+    cursor: pointer
+ }
+
+
+ @media(max-width:990px){
+    header{
+        padding: 10px 20px;
+    }
+    header .navigation{
+        display: none;
+    }
+    .banner .content h2 {
+        font-size: 3em;
+    }
+    .row {
+        flex-direction: column;
+    }
+    .row .col150{
+        position: relative;
+        width: 100%;
+    }
+    .row .co150 .imgbx{
+        height: 300px;
+        margin-top: 20px;
+    }
+    .menu .content{
+        margin-top: 20px;
+    }
+    
+ }
